@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Climate Control</title>
+    <style>
+        #navbar {
+            display: flex;
+            align-items: center;
+            position: sticky;
+            top: 0px;
+        }
+
+        #navbar::before {
+            content: "";
+            background-color: rgb(174, 156, 134);
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            height: 74%;
+            width: 100%;
+            z-index: -1;
+        }
+
+        .logo {
+            position: relative;
+            font-size: 2em;
+            color: black;
+            user-select: none;
+            font-family: 'Baloo Bhai', cursive;
+            margin-left: 15px;
+        }
+
+        #navbar ul {
+            display: flex;
+            font-family: 'Baloo Bhai', cursive;
+            margin-left: 15px;
+        }
+
+        #navbar ul li {
+            list-style: none;
+            font-size: 1.3rem;
+        }
+
+        #navbar ul li a {
+            color: black;
+            display: block;
+            padding: 3px 22px;
+            border-radius: 10px;
+            text-decoration: none;
+        }
+
+        .backhome{
+            font-size: 2em;
+            font-family: cursive;
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="disc" style="background-color: white;">
+
+        <nav id="navbar">
+            <h4 class="logo">SmartHome</h4>
+            <ul>
+                <li class="item"><a href="smarthome.html">Home</a></li>
+                <li class="item"><a href="smarthome.html">Solutions</a></li>
+                <li class="item"><a href="smarthome.html">About</a></li>
+                <li class="item"><a href="smarthome.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <h2 style="font-size: 3em; font-family: cursive;">Learn More About Climate Control</h2>
+
+        <div class="box">
+
+            <img src="weather.jpg" alt="climate control image" style="width: 10cm; height: 10cm;float: left;margin: 10px 46px;border-radius: 10px;">
+
+            <li style="font-size: 1em;font-family: cursive;"><strong>Automated Sunlight Management:</strong> <br>
+                Program your shades and drapes to adjust automatically throughout the day, responding to the position of
+                the sun and occupancy in your home. By opening and closing them accordingly, you can optimize natural
+                light levels, reduce glare, and regulate indoor temperature, all while minimizing the need for
+                artificial lighting and heating or cooling. <br><br></li>
+
+            <li style="font-size: 1em;font-family: cursive;"><strong>Morning "Wakeup" Scene:</strong><br>
+                Create a "Wakeup" scene that orchestrates a seamless transition into the day. As you stir from sleep,
+                the curtains gently open, allowing natural light to filter in. Simultaneously, lighting gradually
+                increases over a five-minute period, mimicking the rising sun, and the temperature adjusts to your
+                preferred level, ensuring you wake up feeling refreshed and ready to tackle the day.<br><br></li>
+
+            <li style="font-size: 1em;font-family: cursive;"><strong>Morning Departure Routine:</strong> <br>
+                Set your smart thermostat to automatically lower the temperature when you leave for work in the morning.
+                By reducing heating or cooling while the house is empty, you conserve energy and save on utility bills
+                without sacrificing comfort. Your home will remain efficiently conditioned, ready to welcome you back
+                upon your return.<br><br></li>
+
+            <li style="font-size: 1em;font-family: cursive;"><strong>Tailored Exercise Environment:</strong> <br>
+                Create an "Exercise" scene that optimizes your workout environment. Lower the temperature to keep you
+                cool and comfortable during physical activity, and simultaneously initiate other personalized elements,
+                such as turning on a TV to your favorite workout program or starting a customized music playlist to
+                motivate and energize your routine. This integrated approach enhances your exercise experience and
+                supports your fitness goals.<br><br></li>
+
+            <li style="font-size: 1em;font-family: cursive;"><strong>Convenient Fireplace Control:</strong> <br>
+                With the touch of a button on your smartphone or tablet, ignite your fireplace without having to leave
+                the comfort of your couch. This convenient feature eliminates the hassle of manual ignition while
+                ensuring you can enjoy the cozy ambiance and warmth of a crackling fire whenever desired.<br><br></li>
+
+            <li style="font-size: 1em;font-family: cursive;"><strong>Automated Floor Heating Activation:</strong><br>
+                Between the hours of 4 am and 9 am, when occupants typically prepare for their day, the system evaluates
+                the temperature reading from the garage attic. If the temperature falls below the preset threshold of 40
+                degrees Fahrenheit, indicating chilly outdoor conditions, the system automatically triggers the master
+                bath floor heating switch to activate.<br><br></li>
+
+            <li style="font-size: 1em;font-family: cursive;"><strong>Remote Temperature Sensor Placement:</strong> <br>
+                A remote temperature sensor is strategically installed in the attic of the garage to monitor outdoor
+                temperature conditions accurately. This sensor serves as a crucial component of the smart floor heating
+                system, providing real-time data on external temperature variations.
+                <br><br></li>
+
+            <p style="font-size: 1em;font-family: cursive;">By implementing this system, homeowners can enjoy the comfort of a warm bathroom floor
+                during cold mornings without the need for manual intervention. The automation based on outdoor
+                temperature conditions ensures efficient energy usage and enhances overall comfort and convenience.
+            </p>
+
+            <a href="smarthome.html" class="backhome">Back To Home... </a>
+        </div>
+    </section>
+</body>
+
+</html>

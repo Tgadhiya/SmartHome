@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Mirror</title>
+    <!-- <link rel="stylesheet" href="smarthomediscription.css"> -->
+    <style>
+        #navbar {
+            display: flex;
+            align-items: center;
+            position: sticky;
+            top: 0px;
+        }
+
+        #navbar::before {
+            content: "";
+            background-color: rgb(174, 156, 134);
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            height: 74%;
+            width: 100%;
+            z-index: -1;
+        }
+
+        .logo {
+            position: relative;
+            font-size: 2em;
+            color: black;
+            user-select: none;
+            font-family: 'Baloo Bhai', cursive;
+            margin-left: 15px;
+        }
+
+        #navbar ul {
+            display: flex;
+            font-family: 'Baloo Bhai', cursive;
+            margin-left: 15px;
+        }
+
+        #navbar ul li {
+            list-style: none;
+            font-size: 1.3rem;
+        }
+
+        #navbar ul li a {
+            color: black;
+            display: block;
+            padding: 3px 22px;
+            border-radius: 10px;
+            text-decoration: none;
+        }
+
+        .backhome {
+            font-size: 2em;
+            font-family: cursive;
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="disc" style="background-color: white;">
+
+        <nav id="navbar">
+            <h4 class="logo">SmartHome</h4>
+            <ul>
+                <li class="item"><a href="smarthome.html">Home</a></li>
+                <li class="item"><a href="smarthome.html">Solutions</a></li>
+                <li class="item"><a href="smarthome.html">About</a></li>
+                <li class="item"><a href="smarthome.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <h2 style="font-size: 3em; font-family: cursive;">Learn More About Mirror</h2>
+
+        <div class="box">
+
+            <img src="smart-mirror-capstone.jpg" alt="mirror image" style="width: 10cm;
+        height: 10cm;
+        float: left;
+        margin: 10px 46px;
+        border-radius: 10px;">
+            <li style="font-size: 1em;
+            font-family: cursive;"><strong>Hardware Setup:</strong> <br>
+                Raspberry Pi or similar microcontroller as the central processing unit.
+                Two-way mirror or a regular mirror with a display behind it.
+                Camera module for facial recognition and gesture detection.
+                Motion sensor to activate the mirror when someone approaches.
+                Temperature and humidity sensors for environmental monitoring.
+                Microphone and speakers for voice interaction.
+                <br><br>
+            </li>
+            <li style="font-size: 1em;
+        font-family: cursive;"><strong>User Interface:</strong><br>
+                Display time, date, weather, and other relevant information on the mirror's surface.
+                Customize widgets and modules for news headlines, calendar events, and to-do lists.
+                Enable voice commands for hands-free control of the mirror's functions.
+                Implement touch or gesture controls for interactive navigation.
+                <br><br>
+            </li>
+            <li style="font-size: 1em;
+        font-family: cursive;"><strong>IoT Integration:</strong> <br>
+                Connect the smart mirror to the internet for real-time updates and synchronization.
+                Integrate with IoT devices like smart thermostats, lights, and security cameras.
+                Receive notifications from connected devices, such as doorbell rings or motion alerts.
+                Control IoT devices through the mirror interface, allowing users to adjust settings with a simple touch
+                or voice command.
+                <br><br>
+            </li>
+            <li style="font-size: 1em;
+        font-family: cursive;"><strong>Health and Fitness Tracking:</strong> <br>
+                Integrate fitness trackers or health monitoring devices to display workout progress and health metrics.
+                Reminders for hydration, medication or stretching based on preferences.
+                Analyze sleep patterns and provide recommendations for better sleep hygiene.
+                <br><br>
+            <li style="font-size: 1em;
+        font-family: cursive;"><strong>Personalization and Recognition:</strong> <br>
+                Implement facial recognition to identify users and display personalized information.
+                Customize the interface based on individual preferences such as displaying specific news sources or
+                calendar events.
+                Use machine learning algorithms to improve recognition accuracy over time.
+                <br><br>
+            </li>
+
+            </li>
+            <li style="font-size: 1em;
+        font-family: cursive;"><strong>Entertainment and Media:</strong><br>
+                Stream music, podcasts, or news updates through the mirror's speakers.
+                Display visual content such as YouTube videos, streaming services, or photo slideshows.
+                Integrate with smart home entertainment systems for seamless control of audio and video playback.
+
+                <br><br>
+            <li style="font-size: 1em;
+        font-family: cursive;"><strong>Security & Privacy Measures:</strong> <br>
+                Encrypt communication between the smart mirror and external servers to protect user data.
+                Allow users to disable or mute microphone and camera functionalities for privacy concerns.
+                Implement authentication mechanisms to prevent unauthorized access to personal information.
+                <br><br>
+            <li style="font-size: 1em;
+                font-family: cursive;"><strong>Energy Efficiency & Optimization:</strong> <br>
+                Use motion sensors to activate the mirror only when someone is nearby, conserving energy when not in
+                use.
+                Adjust display brightness based on ambient lighting conditions to optimize energy consumption.
+                Implement power-saving modes to reduce standby power consumption during idle periods.
+                <br><br>
+            </li>
+            <p style="font-size: 1em;
+        font-family: cursive;">A smart mirror capstone project based on IoT can offer a multifunctional and immersive
+                user experience while showcasing the potential of connected devices in everyday life.
+            </p>
+            <a href="smarthome.html" class="backhome">Back To Home... </a>
+        </div>
+
+    </section>
+</body>
+
+</html>
